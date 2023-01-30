@@ -92,13 +92,17 @@ ALTER TABLE ONLY public.players ALTER COLUMN id SET DEFAULT nextval('public.play
 
 INSERT INTO public.players VALUES (1, 'Abdullah', 0, 0);
 INSERT INTO public.players VALUES (2, 'Mahmoud', 0, 0);
+INSERT INTO public.players VALUES (4, 'user_1675101454904', 2, 63);
+INSERT INTO public.players VALUES (3, 'user_1675101454905', 5, 217);
+INSERT INTO public.players VALUES (6, 'user_1675101841210', 2, 152);
+INSERT INTO public.players VALUES (5, 'user_1675101841211', 5, 132);
 
 
 --
 -- Name: players_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.players_id_seq', 2, true);
+SELECT pg_catalog.setval('public.players_id_seq', 6, true);
 
 
 --
